@@ -56,7 +56,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.router-link-active {
+	text-decoration: none;
 
+}
 
 
 </style>
