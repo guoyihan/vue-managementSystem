@@ -18,7 +18,7 @@
         <el-dropdown>
           <el-avatar class="el-dropdown-link" icon="el-icon-user-solid" :size="50"></el-avatar>
           <el-dropdown-menu slot="dropdown">
-            <el-dropdown-item icon="el-icon-s-custom" @click="personCenter">个人中心</el-dropdown-item           >
+            <el-dropdown-item icon="el-icon-s-custom" @click="personCenter">个人中心</el-dropdown-item>
             <el-dropdown-item icon="el-icon-switch-button" @click="logout">退出</el-dropdown-item
             >
           </el-dropdown-menu>

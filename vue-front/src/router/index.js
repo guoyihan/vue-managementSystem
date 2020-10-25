@@ -27,12 +27,8 @@ const routes = [
         component: resolve => require(['../views/Data.vue'], resolve),
       },
       {
-        path: 'hotel-setting',
-        component: resolve => require(['../views/Hotel.vue'], resolve),
-      },
-      {
-        path: 'rooms-manage',
-        component: resolve => require(['../views/Rooms.vue'], resolve),
+        path: 'management',
+        component: resolve => require(['../views/Management.vue'], resolve),
       },
       {
         path: 'order',

@@ -66,7 +66,7 @@ export default {
 .head {
   height: 60px;
   font-size: 30px;
-  line-height: 60px;
+  line-height: 1;
   text-align: left;
   .text {
     text-align-last: left;
@@ -81,7 +81,7 @@ export default {
     height: 200px;
     .header {
       height: 40px;
-      line-height: 40px;
+      line-height: 1;
       text-align: center;
       align-items: center;
     }
@@ -89,16 +89,18 @@ export default {
       height: 160px;
       display: flex;
       flex-direction: column;
-      line-height: 160px;
+      line-height: 1;
+      align-items: center;
+
       .num{
         height: 96px;
-        line-height: 96px;
+        line-height: 1;
         align-items: center;
       }
       .instruction {
         height: 64px;
-        line-height: 64px;
-        align-items: center;
+        line-height: 1;
+      align-items: center;
       }
     }
   }
